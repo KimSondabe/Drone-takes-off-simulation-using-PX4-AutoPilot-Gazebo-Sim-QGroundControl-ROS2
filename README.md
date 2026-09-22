@@ -5,6 +5,14 @@ Instruct full guide how to download and take off drone with PX4, Gazebo Sim 8, Q
 
 ## INTRODUCTION
 
+### 1. PX4-AutoPilot
+
+### 2. ROS2 Humble
+
+### 3. Micro-XRCE-DDS Agent
+
+### 4. QGroundControl
+
 ## DOWNLOADS
 ### 1. PX4-AutoPilot
 Open your terminal, update and upgrade prepare for next step
@@ -31,9 +39,11 @@ reboot
 
 ### 2. ROS2 Humble
 
+### 3. Micro-XRCE-DDS Agent
 
+### 4. QGroundControl
 
-
+## TAKE OFF UAV
 
 ## CREDITS AND REFERENCES
 
