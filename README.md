@@ -38,7 +38,7 @@ Download Git
 ```bash
 sudo apt install git
 ```
-Clone the PX4-Autopilot repository
+Clone the PX4-Autopilot repositoryhttps://ali.khorshidi.net/ros2-px4/
 ```bash
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 ```
@@ -54,12 +54,42 @@ reboot
 ### 2. ROS2 Humble
 
 ### 3. Micro-XRCE-DDS Agent
+Install Agent Dependencies
+```bash
+pip3 install --user -U empy pyros-genmsg setuptools
+```
+Manual complilation
+```bash
+git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+cd Micro-XRCE-DDS-Agent
+mkdir build
+cd build
+cmake..
+make
+sudo make install
+sudo ldconfig /usr/local/lib/
+```
 
 ### 4. QGroundControl
+Download QGroundControl 4.4.5 at here [Link](https://github.com/mavlink/qgroundcontrol/releases/tag/v4.4.5)
+
+Go to the directory where QGroundControl was downloaded (usually at :/Downloads) and make QGroundControl.AppImage executable
+```bash
+chmod +x ./QGroundControl.AppImage
+```
+Run QGroundControl 
+```bash
+./QGroundControl.AppImage
+```
 
 ## TAKE OFF UAV
+Running 
 
 ## CREDITS AND REFERENCES
+This project is based on:
+[Gazebo-PX4-Setup-Guide](https://github.com/MrStealYoCurls/Gazebo-PX4-Setup-Guide.git)
+[Comprehensive Guide to PX4 SITL Simulation with ROS 2 and Gazebo on Ubuntu 22.04](https://ali.khorshidi.net/ros2-px4/)
+
 
 ## THANKS TO
 
