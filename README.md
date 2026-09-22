@@ -1,12 +1,12 @@
 # UAV SIMULATOR WITH PX4, GAZEBO SIM 8, QGROUNDCONTROL AND ROS2 HUMBLE
 Instruct full guide how to download and take off drone with PX4, Gazebo Sim 8, QGroundControl and ROS2 Humble
 
-##TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
-##INTRODUCTION
+## INTRODUCTION
 
-##DOWNLOADS
-###1. PX4-AutoPilot
+## DOWNLOADS
+### 1. PX4-AutoPilot
 Open your terminal, update and upgrade prepare for next step
 ```bash
 sudo apt update
@@ -29,13 +29,13 @@ Reboot the system
 reboot
 ```
 
-###2. ROS2 Humble
+### 2. ROS2 Humble
 
 
 
 
 
-##CREDITS AND REFERENCES
+## CREDITS AND REFERENCES
 
-##THANKS TO
+## THANKS TO
 
