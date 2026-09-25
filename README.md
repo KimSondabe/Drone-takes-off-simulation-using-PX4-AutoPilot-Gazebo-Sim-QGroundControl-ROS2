@@ -83,7 +83,43 @@ Run QGroundControl
 ```
 
 ## TAKE OFF UAV
-Running 
+Running 4 terminal simultaneously follow this instructions:
+### PX4-AutoPilot
+1. Navigate to the PX4-Autopilot directory:
+```bash
+cd ~/Auto-Pilot
+```
+2. Build, run the simulation and create a drone:
+```bash
+make px4_sitl gz_x500
+```
+
+### QGroundControl
+1. Navigate to the QGroundControl directory:
+```bash
+cd ~/Downloads
+```
+2. Run QGroundControl:
+```bash
+./QGroundControl
+```
+
+### Micro-XRCE-DDS Agent
+1. Launch the Micro-XRCE-DDS Agent:
+```bash
+MicroXRCEAgent udp4 -p 8888
+```
+
+### ROS2 Humble
+1. Navigate to the ROS2 Humble workspace and source the "local_setup.bash" file:
+```bash
+cd ~/ros2_ws
+source install/setup.bash
+```
+2. Run the program to take off the drone
+```bash
+ros2 run px4_ros_com offboard_control
+```
 
 ## CREDITS AND REFERENCES
 This project is based on:
