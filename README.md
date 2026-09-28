@@ -18,7 +18,7 @@ Instruct full guide how to download and take off drone with PX4, Gazebo Sim 8, Q
 - [THANKS TO](#thanks-to)
 
 ## INTRODUCTION
-
+The goal of this project is to help download and run the simulation of taking off UAV via simualtor application 
 
 
 ### 1. PX4-AutoPilot
