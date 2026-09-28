@@ -4,10 +4,6 @@ Instruct full guide how to download and take off drone with PX4, Gazebo Sim 8, Q
 ## Table of Contents
 
 - [INTRODUCTION](#introduction)
-  - [1. PX4-AutoPilot](#1-px4-autopilot)
-  - [2. ROS2 Humble](#2-ros2-humble)
-  - [3. Micro-XRCE-DDS Agent](#3-micro-xrce-dds-agent)
-  - [4. QGroundControl](#4-qgroundcontrol)
 - [DOWNLOADS](#downloads)
   - [1. PX4-AutoPilot](#1-px4-autopilot-1)
   - [2. ROS2 Humble](#2-ros2-humble-1)
@@ -18,16 +14,12 @@ Instruct full guide how to download and take off drone with PX4, Gazebo Sim 8, Q
 - [THANKS TO](#thanks-to)
 
 ## INTRODUCTION
-The goal of this project is to help download and run the simulation of taking off UAV via simualtor application 
+A full turtorial step-by-step how to download, setup and run a development environment for UAV involves several software systems. Through this project, you can simulate a autonomous drones and develop your own project by yourself. Understanding comprehensively the role of each component, how they operate, interact. 
 
+PX4-AutoPilot is a open-source flight controller software for drones. ROS2 Humble is a tool for programming robot. Gazebo Simulator is a 3D robotics simulator providing realistic enviroment for flying drones. Micro-XRCE-DDS Brigde is a communication link between PX4 and ROS2 Humble, translating and transporting messages from ROS2 to PX4 and come back. 
 
-### 1. PX4-AutoPilot
+Beginning with realistics enviroment created by Gazebo Simulator, drone appears, controlled by PX4 and QGroundControl. Then ROS2 run the program of take off the drone. Micro-XRCE-DDS Brigde brings and translates to PX4's language. Finally PX4 control and drone flys in Gazebo Sim.
 
-### 2. ROS2 Humble
-
-### 3. Micro-XRCE-DDS Agent
-
-### 4. QGroundControl
 
 ## DOWNLOADS
 ### 1. PX4-AutoPilot
@@ -125,9 +117,11 @@ ros2 run px4_ros_com offboard_control
 
 ## CREDITS AND REFERENCES
 This project is based on:
+
 [Gazebo-PX4-Setup-Guide](https://github.com/MrStealYoCurls/Gazebo-PX4-Setup-Guide.git)
+
 [Comprehensive Guide to PX4 SITL Simulation with ROS 2 and Gazebo on Ubuntu 22.04](https://ali.khorshidi.net/ros2-px4/)
 
 
 ## THANKS TO
-
+[Embedded Networking Labrotatory](https://www.facebook.com/lab411)
